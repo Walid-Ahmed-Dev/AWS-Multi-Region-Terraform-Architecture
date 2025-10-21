@@ -1,0 +1,23 @@
+.
+├── backend.tf
+├── CloudWatch.tf
+├── Database.tf
+├── docs
+│   ├── ARCHITECTURE.md
+│   ├── DEPLOYMENT.md
+│   ├── DESIGN_DECISIONS.md
+│   ├── LESSONS_LEARNED.md
+│   └── TROUBLESHOOTING.md
+├── Health.check.tf
+├── main.tf
+├── modules
+│   ├── infrastructure
+│   ├── TGW
+│   └── vpc
+├── outputs.tf
+├── project_structure.txt
+├── README.md
+├── Route 53.tf
+└── variables.tf
+
+6 directories, 15 files

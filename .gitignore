@@ -1,0 +1,9 @@
+#stores providers(similar to a library for code) line 2. #ignore the .terraform parent dir and its child dirs 
+.terraform/*            
+
+#tf state files line 5. #ignore all prefixes(file name) with the .tfstate suffix(extension) line 6. #ignore all files with the .tfstate keyword(file name) regardless of prefix(file name) and suffix(extension)
+*.tfstate              
+*.tfstate.*             
+
+#tf variable files, may include sensitive data line 9. #ignore all prefixes(file name) with the .tfvars suffix(extension)
+*.tfvars                
